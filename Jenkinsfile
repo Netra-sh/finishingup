@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'echo "Pass Netra!"; exit 0'
+                sh 'echo "Hi Netra!"; exit 0'
             }
         }
     }
